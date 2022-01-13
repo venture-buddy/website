@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Toji Morimoto",
+    "title": "Founder, CEO",
+    "slug": "toji",
+    "bio": "Esse sint id cillum ipsum exercitation eiusmod culpa labore elit. Velit adipisicing non proident voluptate anim qui fugiat laboris aute veniam in quis. Ea fugiat cillum consectetur magna nostrud incididunt in non ea. Amet officia in sint laboris ut proident non dolor nulla ut occaecat mollit veniam."
+  },
+  {
+    "name": "Ayami Oe",
+    "title": "Finance",
+    "slug": "ayami",
+    "bio": "Esse sint id cillum ipsum exercitation eiusmod culpa labore elit. Velit adipisicing non proident voluptate anim qui fugiat laboris aute veniam in quis. Ea fugiat cillum consectetur magna nostrud incididunt in non ea. Amet officia in sint laboris ut proident non dolor nulla ut occaecat mollit veniam."
+  },
+  {
+    "name": "McLiza Kendema",
+    "title": "Lorem Ipsum",
+    "slug": "mac",
+    "bio": "Esse sint id cillum ipsum exercitation eiusmod culpa labore elit. Velit adipisicing non proident voluptate anim qui fugiat laboris aute veniam in quis. Ea fugiat cillum consectetur magna nostrud incididunt in non ea. Amet officia in sint laboris ut proident non dolor nulla ut occaecat mollit veniam."
+  },
+  {
+    "name": "Ayumi Takahashi",
+    "title": "Lead Designer & Frontend Engineer",
+    "slug": "ayumi",
+    "bio": "Esse sint id cillum ipsum exercitation eiusmod culpa labore elit. Velit adipisicing non proident voluptate anim qui fugiat laboris aute veniam in quis. Ea fugiat cillum consectetur magna nostrud incididunt in non ea. Amet officia in sint laboris ut proident non dolor nulla ut occaecat mollit veniam."
+  },
+  {
+    "name": "Yuki Sato",
+    "title": "Lead Backend Engineer",
+    "slug": "yuki",
+    "bio": "Esse sint id cillum ipsum exercitation eiusmod culpa labore elit. Velit adipisicing non proident voluptate anim qui fugiat laboris aute veniam in quis. Ea fugiat cillum consectetur magna nostrud incididunt in non ea. Amet officia in sint laboris ut proident non dolor nulla ut occaecat mollit veniam."
+  },
+  {
+    "name": "Shu Masuda",
+    "title": "Lorem Ipsum",
+    "slug": "shu",
+    "bio": "Esse sint id cillum ipsum exercitation eiusmod culpa labore elit. Velit adipisicing non proident voluptate anim qui fugiat laboris aute veniam in quis. Ea fugiat cillum consectetur magna nostrud incididunt in non ea. Amet officia in sint laboris ut proident non dolor nulla ut occaecat mollit veniam."
+  },
+  {
+    "name": "Tomoa Ishihara",
+    "title": "Lorem Ipsum",
+    "slug": "tomoa",
+    "bio": "Esse sint id cillum ipsum exercitation eiusmod culpa labore elit. Velit adipisicing non proident voluptate anim qui fugiat laboris aute veniam in quis. Ea fugiat cillum consectetur magna nostrud incididunt in non ea. Amet officia in sint laboris ut proident non dolor nulla ut occaecat mollit veniam."
+  }
+]
