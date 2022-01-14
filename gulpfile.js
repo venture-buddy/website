@@ -17,16 +17,15 @@ import concat from "gulp-concat";
 import ejs from "gulp-ejs";
 import rename from "gulp-rename";
 
-import { readFile } from 'fs/promises';
-const memberDataJson = JSON.parse(
-  await readFile(
-    new URL('./src/ejs/member-data.json', import.meta.url)
-  )
+import { readFile } from "fs/promises";
+const memberDataEnJson = JSON.parse(
+  await readFile(new URL("./src/ejs/member-data-en.json", import.meta.url))
+);
+const memberDataJaJson = JSON.parse(
+  await readFile(new URL("./src/ejs/member-data-ja.json", import.meta.url))
 );
 const valDataJson = JSON.parse(
-  await readFile(
-    new URL('./src/ejs/val-data.json', import.meta.url)
-  )
+  await readFile(new URL("./src/ejs/val-data.json", import.meta.url))
 );
 
 function browsersync() {
@@ -86,7 +85,15 @@ function duplicate() {
 function buildhtml() {
   return src(["./src/ejs/**/*.ejs", "!" + "./src/ejs/**/_*.ejs"])
     .pipe(
-      ejs({ memberDataJson: memberDataJson, valDataJson: valDataJson }, {}, { ext: ".html" })
+      ejs(
+        {
+          memberDataEnJson: memberDataEnJson,
+          memberDataJaJson: memberDataJaJson,
+          valDataJson: valDataJson,
+        },
+        {},
+        { ext: ".html" }
+      )
     )
     .pipe(rename({ extname: ".html" }))
     .pipe(dest("./docs"))

@@ -142,6 +142,12 @@ h2 {
   line-height: 0;
 }
 
+.icon {
+  display: inline-block;
+  width: 1.125rem;
+  height: 1.125rem;
+}
+
 .webp {
   .hero-bg::before {
     background-image: url(../images/hero-bg.webp);
@@ -380,6 +386,12 @@ section {
         }
       }
     }
+  }
+}
+body.ja #services ol li {
+  font-size: 3.5rem;
+  small {
+    font-size: 1.5rem;
   }
 }
 
