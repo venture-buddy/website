@@ -37,7 +37,7 @@ jobs:
         with:
           target_branch: gh-pages
           build_dir: docs
-          fqdn: jpweb.ca
+          fqdn: venturebuddy.net
           jekyll: false
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
