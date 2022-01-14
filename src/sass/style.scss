@@ -103,6 +103,9 @@ h2 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   letter-spacing: -0.2rem;
+  @include media-breakpoint-down(lg) {
+    font-size: 5rem;
+  }
   @include media-breakpoint-down(sm) {
     font-size: 3.5rem;
     letter-spacing: -0.15rem;
@@ -234,6 +237,9 @@ h2 {
   h1 {
     font-size: 5rem;
     letter-spacing: -0.08rem;
+    @include media-breakpoint-down(lg) {
+      font-size: 4.5rem;
+    }
     @include media-breakpoint-down(sm) {
       font-size: 3.5rem;
       letter-spacing: -0.05rem;
@@ -273,6 +279,9 @@ section {
     );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    @include media-breakpoint-down(lg) {
+      font-size: 2.75rem;
+    }
     @include media-breakpoint-down(sm) {
       font-size: 2rem;
     }
@@ -295,6 +304,9 @@ section {
     }
     h2 {
       font-size: 7.5rem;
+      @include media-breakpoint-down(lg) {
+        font-size: 5rem;
+      }
       @include media-breakpoint-down(sm) {
         font-size: 3.5rem;
       }
@@ -521,6 +533,9 @@ body.ja #services ol li {
       h2 {
         font-size: 4.5rem;
         -webkit-text-fill-color: $white;
+        @include media-breakpoint-down(lg) {
+          font-size: 4rem;
+        }
         @include media-breakpoint-down(sm) {
           font-size: 3rem;
           letter-spacing: -0.05rem;
