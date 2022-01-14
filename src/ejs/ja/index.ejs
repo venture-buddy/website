@@ -2,12 +2,10 @@
 <html lang="ja">
 
 <% const title="VentureBuddy" %>
-  <% const tagline="Grow Your Enterprise Business with the help of The Crowd" %>
+  <% const tagline="「共感」の力で成長を加速する" %>
     <% const url="https://venturebuddy.net" %>
-      <% const
-        description="We are building the technology infrastructure for the future of Business Development. We help ventures & new market entrants grow, by maximizing Business Development Opportunities."
-        %>
-        <% const image=url+"/images/card-image.jpg" %>
+      <% const description="ベンチャーがもっと成長しやすい未来をテクノロジーで実現します。私たちはベンチャーや海外新規参入企業がより成長しやすい環境を整えることで日本の国際競争力の向上に寄与します。" %>
+        <% const image=url+"/images/card-image-ja.jpg" %>
           <% const twitter="@twitter_account" %>
 
             <head>
@@ -27,24 +25,24 @@
                 class="webfont">
 
               <title>
-                <%= title %> - <%= tagline %>
+                <%= title %>（ベンチャーバディ） - <%= tagline %>
               </title>
               <meta name="description" content="<%= description %>">
               <!-- <link rel="canonical" href="<%= url %>"> -->
 
               <!-- Open Graph Tags -->
-              <meta property="og:title" content="<%= title %> - <%= tagline %>" />
+              <meta property="og:title" content="<%= title %>（ベンチャーバディ） - <%= tagline %>" />
               <meta property="og:type" content="website" />
               <meta property="og:image" content="<%= image %>" />
               <meta property="og:description" content="<%= description %>" />
               <meta property="og:locale" content="en-US" />
-              <meta property="og:site_name" content="<%= title %>" />
+              <meta property="og:site_name" content="<%= title %>（ベンチャーバディ）" />
               <meta property="og:url" content="<%= url %>" />
 
               <!-- Twitter Cards -->
               <meta name="twitter:card" content="summary_large_image">
               <meta name="twitter:site" content="<%= twitter %>">
-              <meta name="twitter:title" content="<%= title %> - <%= tagline %>">
+              <meta name="twitter:title" content="<%= title %>（ベンチャーバディ） - <%= tagline %>">
               <meta name="twitter:description" content="<%= description %>">
               <meta name="twitter:image" content="<%= image %>">
               <meta property="twitter:url" content="<%= url %>" />
@@ -70,7 +68,7 @@
                     <div class="page-header__inner container-xxl d-flex align-items-center justify-content-between">
 
                       <a class="header-logo fw-600" href="#">
-                        <%= title %>
+                        <%= title %><span class="visually-hidden">（ベンチャーバディ）</span>
                       </a>
 
                       <input type="checkbox" class="navTriggerInput" id="navTrigger">
