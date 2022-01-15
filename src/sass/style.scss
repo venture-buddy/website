@@ -41,7 +41,7 @@ $table-cell-padding-y: 1.75rem;
 // @import "../../node_modules/bootstrap/scss/grid";
 @import "../../node_modules/bootstrap/scss/tables";
 // @import "../../node_modules/bootstrap/scss/forms";
-// @import "../../node_modules/bootstrap/scss/buttons";
+@import "../../node_modules/bootstrap/scss/buttons";
 // @import "../../node_modules/bootstrap/scss/transitions";
 // @import "../../node_modules/bootstrap/scss/dropdown";
 // @import "../../node_modules/bootstrap/scss/button-group";
@@ -194,7 +194,7 @@ h2 {
       height: 70px;
     }
   }
-  a {
+  a.header-nav-item {
     color: $white;
     display: block;
     &:hover {
@@ -202,6 +202,7 @@ h2 {
     }
   }
   .header-logo {
+    color: $white;
     font-size: 2rem;
     letter-spacing: -0.04rem;
     @include media-breakpoint-down(sm) {
@@ -209,10 +210,10 @@ h2 {
     }
   }
   .header-nav {
-    a {
-      padding: 1rem;
+    a.header-nav-item {
+      padding: 0 0.75rem;
       @include media-breakpoint-down(sm) {
-        padding: 0.75rem;
+        padding: 0.5rem;
       }
     }
   }
@@ -223,10 +224,13 @@ h2 {
       color: $primary;
     }
     nav {
-      a {
+      a.header-nav-item {
         color: $black;
       }
     }
+  }
+  .btn-language {
+    padding-right: 1rem;
   }
 }
 
@@ -375,11 +379,11 @@ section {
     }
     counter-reset: ruler;
     li {
-      font-size: 4rem;
+      font-size: 3.5rem;
       letter-spacing: -0.075rem;
-      line-height: 1.4;
+      line-height: 1.25;
       @include media-breakpoint-down(sm) {
-        font-size: 2.25rem;
+        font-size: 2rem;
         letter-spacing: -0.05rem;
       }
       &::before {
@@ -387,19 +391,25 @@ section {
         content: counter(ruler, decimal-leading-zero) " ";
         font-family: "Barlow", sans-serif;
         color: $primary;
-        font-size: 5.625rem;
+        font-size: 5rem;
         letter-spacing: -0.05rem;
         line-height: 1;
         @include media-breakpoint-down(sm) {
           font-size: 3rem;
         }
       }
-      small {
-        font-size: 1.75rem;
+      span {
+        padding-top: 0.75rem;
         @include media-breakpoint-down(sm) {
-          font-size: 1.25rem;
+          padding-top: 0.5rem;
         }
       }
+      // small {
+      //   font-size: 1.75rem;
+      //   @include media-breakpoint-down(sm) {
+      //     font-size: 1.25rem;
+      //   }
+      // }
     }
   }
 }
@@ -738,10 +748,19 @@ body.ja #services ol li {
           display: flex;
           align-items: center;
           justify-content: center;
-          a {
+          a.header-nav-item {
             text-align: center;
             color: $primary;
             font-size: 1.75rem;
+            padding-top: 0.75rem;
+            padding-bottom: 0.75rem;
+          }
+          .btn-language {
+            font-size: 1.25rem;
+            svg {
+              width: 1.25rem;
+              height: 1.25rem;
+            }
           }
         }
       }
