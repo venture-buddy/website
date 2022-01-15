@@ -228,12 +228,16 @@ h2 {
         color: $black;
       }
     }
+    .navTriggerToggle {
+      background-color: $primary;
+      border-color: $primary;
+    }
   }
 }
 
 .btn-language {
-  padding-right: 1.5rem;
-  padding-left: 1.5rem;
+  padding-right: 0.75rem;
+  padding-left: 0.75rem;
   &.btn-outline-primary {
     background-color: $white;
     border-color: $white;
@@ -682,7 +686,8 @@ body.ja #services ol li {
       z-index: 9999;
       height: 72px;
       width: 72px;
-      background-color: $primary;
+      // background-color: $primary;
+      border: solid 1px $white;
       padding: 22px;
       @include media-breakpoint-down(sm) {
         height: 54px;
@@ -731,6 +736,8 @@ body.ja #services ol li {
 
       &:checked {
         & ~ .navTriggerToggle {
+          background-color: $primary;
+          border-color: $primary;
           & > .horizontal {
             transition: all 0.3s;
             box-sizing: border-box;
@@ -768,13 +775,6 @@ body.ja #services ol li {
             font-size: 1.75rem;
             padding-top: 0.75rem;
             padding-bottom: 0.75rem;
-          }
-          .btn-language {
-            font-size: 1.25rem;
-            svg {
-              width: 1.25rem;
-              height: 1.25rem;
-            }
           }
         }
       }
