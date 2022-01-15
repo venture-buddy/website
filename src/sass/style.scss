@@ -44,7 +44,7 @@ $table-cell-padding-y: 1.75rem;
 @import "../../node_modules/bootstrap/scss/buttons";
 // @import "../../node_modules/bootstrap/scss/transitions";
 // @import "../../node_modules/bootstrap/scss/dropdown";
-// @import "../../node_modules/bootstrap/scss/button-group";
+@import "../../node_modules/bootstrap/scss/button-group";
 // @import "../../node_modules/bootstrap/scss/nav";
 // @import "../../node_modules/bootstrap/scss/navbar";
 // @import "../../node_modules/bootstrap/scss/card";
@@ -232,7 +232,19 @@ h2 {
 }
 
 .btn-language {
-  padding-right: 1rem;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+  &.btn-outline-primary {
+    background-color: $white;
+    border-color: $white;
+    &:hover {
+      color: $primary;
+      opacity: 0.9;
+    }
+  }
+  &.btn-primary {
+    pointer-events: none;
+  }
 }
 
 #hero {
