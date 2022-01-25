@@ -445,15 +445,19 @@ body.ja #services ol li {
   }
 }
 
+.flex-1 {
+  flex: 1;
+}
+
 #member {
   .member-list {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-column-gap: 4rem;
-    grid-row-gap: 4rem;
-    @include media-breakpoint-down(sm) {
-      grid-template-columns: repeat(1, 1fr);
-    }
+    // display: grid;
+    // grid-template-columns: repeat(2, 1fr);
+    // grid-column-gap: 4rem;
+    // grid-row-gap: 4rem;
+    // @include media-breakpoint-down(sm) {
+    //   grid-template-columns: repeat(1, 1fr);
+    // }
     img {
       width: 100%;
       max-width: 256px;

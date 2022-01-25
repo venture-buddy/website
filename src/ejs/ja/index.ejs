@@ -187,8 +187,8 @@
 
                       <% var memberData=memberDataJaJson %>
                         <% memberData.forEach(function (value) { %>
-                          <li>
-                            <div class="lh-0 mb-4 text-center text-sm-start">
+                          <li class="d-sm-flex align-items-center mb-5">
+                            <div class="lh-0 me-sm-5 text-center mb-4 mb-sm-0">
                               <picture>
                                 <source srcset="../images/member-<%= value.slug %>.webp" type="image/webp">
                                 <source srcset="../images/member-<%= value.slug %>.jpg" type="image/jpeg">
@@ -196,14 +196,16 @@
                                   height="256" alt="<%= value.name %>の写真" title="<%= value.name %>の写真">
                               </picture>
                             </div>
-                            <h3 class="mb-4">
-                              <%= value.name %> <small class="d-block mt-1 fw-400">
-                                  <%= value.title %>
-                                </small>
-                            </h3>
-                            <p>
-                              <%= value.bio %>
-                            </p>
+                            <div class="flex-1">
+                              <h3 class="mb-4">
+                                <%= value.name %> <small class="d-block mt-1 fw-400">
+                                    <%= value.title %>
+                                  </small>
+                              </h3>
+                              <p>
+                                <%= value.bio %>
+                              </p>
+                            </div>
                           </li>
                           <% }); %>
 
