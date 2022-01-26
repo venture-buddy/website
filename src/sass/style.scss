@@ -485,7 +485,7 @@ body.ja #services ol li {
   background-color: #f8f9ff;
   .core-values-list {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 2rem;
     grid-row-gap: 2rem;
     @include media-breakpoint-down(lg) {
