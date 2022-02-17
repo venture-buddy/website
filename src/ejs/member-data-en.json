@@ -1,32 +1,38 @@
 [
   {
     "name": "Toji Morimoto",
-    "title": "Founder, CEO",
+    "title": "Founder & CEO",
     "slug": "toji",
-    "bio": "Esse sint id cillum ipsum exercitation eiusmod culpa labore elit. Velit adipisicing non proident voluptate anim qui fugiat laboris aute veniam in quis. Ea fugiat cillum consectetur magna nostrud incididunt in non ea. Amet officia in sint laboris ut proident non dolor nulla ut occaecat mollit veniam."
+    "bio": "Toji has helped multiple American Tech companies enter Japan and build a profitable team from scratch through consulting and headhunting. Contributed companies include Magic Leap, SKydio, SharkNinja, Klook, Litmus Automation and more."
+  },
+  {
+    "name": "Akie Hamagishi",
+    "title": "Chief Global Officer (CGO), Global Strategic Alliances",
+    "slug": "akie",
+    "bio": "Akie has over 20 years of Strategic Alliance & Marketing, Partner Relationship Management experiences worldwide (connecting Japan to the World) in BPO industry."
   },
   {
     "name": "Ayami Oe",
-    "title": "Finance",
+    "title": "Head of Sales",
     "slug": "ayami",
-    "bio": "Esse sint id cillum ipsum exercitation eiusmod culpa labore elit. Velit adipisicing non proident voluptate anim qui fugiat laboris aute veniam in quis. Ea fugiat cillum consectetur magna nostrud incididunt in non ea. Amet officia in sint laboris ut proident non dolor nulla ut occaecat mollit veniam."
+    "bio": "Ayami achieved the best sales record at DocuSign in the inside sales team. She was quickly promoted into Enterprise Account Manager for the financial, manufacturing and telecommunication industries. She has extensive knowledge on maximizing business efficiency by technology in the complex enterprise companies."
   },
   {
-    "name": "McLiza Kendema",
-    "title": "Lorem Ipsum",
+    "name": "Mclsiah Kendema",
+    "title": "Head of Language Programs",
     "slug": "mac",
-    "bio": "Esse sint id cillum ipsum exercitation eiusmod culpa labore elit. Velit adipisicing non proident voluptate anim qui fugiat laboris aute veniam in quis. Ea fugiat cillum consectetur magna nostrud incididunt in non ea. Amet officia in sint laboris ut proident non dolor nulla ut occaecat mollit veniam."
+    "bio": "Mac used his extensive experience as a translator and English teacher to develop customized courses for grade-schoolers to white-collar workers to improve their language skills. Coupled with his entrepreneurial knowledge he makes a strong addition to our language program."
   },
   {
     "name": "Ayumi Takahashi",
     "title": "Lead Designer & Front-end Engineer",
     "slug": "ayumi",
-    "bio": "Esse sint id cillum ipsum exercitation eiusmod culpa labore elit. Velit adipisicing non proident voluptate anim qui fugiat laboris aute veniam in quis. Ea fugiat cillum consectetur magna nostrud incididunt in non ea. Amet officia in sint laboris ut proident non dolor nulla ut occaecat mollit veniam."
+    "bio": ""
   },
   {
     "name": "Yuki Sato",
     "title": "Lead Engineer",
     "slug": "yuki",
-    "bio": "Esse sint id cillum ipsum exercitation eiusmod culpa labore elit. Velit adipisicing non proident voluptate anim qui fugiat laboris aute veniam in quis. Ea fugiat cillum consectetur magna nostrud incididunt in non ea. Amet officia in sint laboris ut proident non dolor nulla ut occaecat mollit veniam."
+    "bio": ""
   }
 ]
