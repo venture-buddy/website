@@ -65,6 +65,10 @@
                 gtag('js', new Date());
                 gtag('config', 'G-NHGWSZEGM0');
               </script>
+
+              <!-- Language -->
+              <link rel="alternate" href="https://venturebuddy.net/ja/" hreflang="ja">
+              <link rel="alternate" href="https://venturebuddy.net/" hreflang="en">
             </head>
 
             <body class="ja">
@@ -527,6 +531,14 @@
                 <footer class="text-center page-footer pb-5">
                   © 2022 VentureBuddy. All Rights Reserved.
                 </footer>
+
+                <script>
+                  // Language
+                  const lang = window.navigator.languages || window.navigator.language || window.navigator.userLanguage || window.navigator.browserLanguage;
+                  if (lang !== 'ja' && lang !== 'ja-JP') {
+                    location.href = '/';
+                  }
+                </script>
 
                 <script>
                   // WebFont lazy load
