@@ -13,11 +13,11 @@
 - Watch files and performs the live reload to the page in all browsers
 - Optimize images (.jpg, .jpeg, .png, .gif)
 - Duplicate images (.svg, .webp)
-- Generate HTML from [EJS](https://ejs.co/) as a template
+- Generate HTML from [EJS](https://ejs.co/) templates
 
 ## Local development
 
-Run `npm run dev` to run gulp tasks and start the development server on http://localhost:3000
+Run `npm run dev` to start gulp tasks and the development server on http://localhost:3000
 
 ## Deploying to GitHub Pages
 
@@ -28,6 +28,6 @@ Run `npm run dev` to run gulp tasks and start the development server on http://l
 
 Using JavaScript:
 
-1. Saves users' language preference in a browser Cookie when users click a language switch button
+1. Save user's language preference in a browser Cookie when users click a language switch button
 
-2. Detects browser language preference and redirects automatically, if a browser doesn't have a language preference Cookie
+2. Detect browser language preference and redirect automatically, if a browser doesn't have a language preference Cookie
