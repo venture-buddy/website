@@ -2,7 +2,7 @@
 
 - [Node.js](https://nodejs.org/en/) 16.13.2 or later
 - [Modernizr](https://modernizr.com/) - detect browsers' .webp availability
-- [Bootstrap 5](https://getbootstrap.com/) - import a part of Bootstrap's Sass files into the custom .scss
+- [Bootstrap 5](https://getbootstrap.com/) - import some Bootstrap's Sass files into the custom .scss
 - [gulp](https://gulpjs.com/) - task runner
 - [GitHub Pages](https://pages.github.com/)
 
